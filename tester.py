@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 import faceRecognition as fr
-
+print("HI")
 
 #This module takes images  stored in diskand performs face recognition
 test_img=cv2.imread('dadandme1.jpg')#test_img path
@@ -41,5 +41,5 @@ cv2.destroyAllWindows
 
 
 
-
+Print("I have debugged the tester file and its okay")
 
